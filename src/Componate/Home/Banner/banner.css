@@ -1,0 +1,8 @@
+.Banner{
+  background: url(../../../assets/Images/banner.jpg);
+  padding:  10rem  0 ;
+}
+.Banner_btn :hover{
+ background-color: white !important ;
+ color: black !important;
+}

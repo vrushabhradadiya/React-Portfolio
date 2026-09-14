@@ -1,0 +1,5 @@
+.work_img > img{
+  height: 170px;
+  object-fit: cover;
+  filter: grayscale();
+}
