@@ -1,5 +1,4 @@
-import React from 'react'
-
+import { RiFacebookCircleFill } from "react-icons/ri"
 export default function Footer() {
     return (
         <>
@@ -21,8 +20,8 @@ export default function Footer() {
 
 
                         <div className="col-12 col-md-6 col-lg-3">
-                            <h3 className="text-light">Recent News</h3>
-                            <ul className='p-0 mt-3 ' style={{listStyle:"none", color:"#aaa"  }}>
+                            <h4 className="text-light">Recent News</h4>
+                            <ul className='p-0 mt-3 ' style={{ listStyle: "none", color: "#aaa" }}>
                                 <li>Don’t Just Stand There, Do Something!</li>
                                 <li>Award Winning Video by One Ocean, One Breath</li>
                                 <li>My Very First Ultra Marathon</li>
@@ -31,90 +30,70 @@ export default function Footer() {
                         </div>
 
 
-                        {/* Recent Work */}
-                        <div className="col-12 col-md-6 col-lg-3">
-                            <h3 className="footer-title">Recent Work</h3>
+                        <div className="col-12 col-md-6 col-lg-3 text-white">
+                            <h4 className="footer-title">Recent Work</h4>
 
-                            {/* Work 1 */}
-                            <div className="work-item">
-                                <img
-                                    src="/images/work1.jpg"
-                                    alt="Down The Road"
-                                />
+                            <div className="work-item d-flex gap-3 py-3 border-top border-secondary align-items-center border-1 ">
+                                <div style={{ width: "65px" }} className='rounded rounded-3 overflow-hidden'>
+                                    <img src="https://totalwpthemedemo.com/base/wp-content/uploads/sites/2/2016/10/bird_mg-125x125@2x.jpg" className='w-100' alt="" />
+                                </div>
 
                                 <div>
-                                    <h4>Down The Road</h4>
-                                    <p>November 24, 2013</p>
+                                    <h4 style={{ fontSize: "14px" }}>Down The Road</h4>
+                                    <p className='text-secondary' style={{ fontSize: "14px" }}>November 24, 2013</p>
                                 </div>
                             </div>
 
-                            {/* Work 2 */}
-                            <div className="work-item">
-                                <img
-                                    src="/images/work2.jpg"
-                                    alt="Futuristic Modern City"
-                                />
+                            <div className="work-item d-flex gap-3 py-3 border-top border-secondary align-items-center border-1 ">
+                                <div style={{ width: "65px" }} className='rounded rounded-3 overflow-hidden'>
+                                    <img src="https://totalwpthemedemo.com/base/wp-content/uploads/sites/2/2016/10/united_cities-1-150x150.jpg" className='w-100' alt="" />
+                                </div>
 
                                 <div>
-                                    <h4>Futuristic Modern City</h4>
-                                    <p>November 24, 2013</p>
+                                    <h4 style={{ fontSize: "14px" }}>Futuristic Modern City</h4>
+                                    <p className='text-secondary' style={{ fontSize: "14px" }}>November 24, 2013</p>
                                 </div>
                             </div>
 
-                            {/* Work 3 */}
-                            <div className="work-item">
-                                <img
-                                    src="/images/work3.jpg"
-                                    alt="Harvey The Rabbit"
-                                />
+                            <div className="work-item d-flex gap-3 py-3 border-top border-secondary align-items-center border-1 ">
+                                <div style={{ width: "65px" }} className='rounded rounded-3 overflow-hidden'>
+                                    <img src="https://totalwpthemedemo.com/base/wp-content/uploads/sites/2/2014/03/bunny-500x500.jpg" className='w-100' alt="" />
+                                </div>
 
                                 <div>
-                                    <h4>Harvey, The Rabbit</h4>
-                                    <p>November 24, 2013</p>
+                                    <h4 style={{ fontSize: "14px" }}>Harvey, The Rabbit</h4>
+                                    <p className='text-secondary' style={{ fontSize: "14px" }}>November 24, 2013</p>
                                 </div>
                             </div>
                         </div>
-
-
-                        {/* Contact */}
-                        <div className="col-12 col-md-6 col-lg-3">
-
-                            <h3 className="footer-title">Contact Us</h3>
-
-                            <div className="contact">
-                                <p>
+                        <div className="col-12 col-md-6 col-lg-3 text-light">
+                            <h4 className="footer-title">Contact Us</h4>
+                            <div className="text-secondary py-3 ">
+                                <p className='m-0 ' style={{ fontSize: "14px" }}>
                                     <strong>Phone:</strong> 800-123-456
                                 </p>
 
-                                <p>
+                                <p className='m-0 ' style={{ fontSize: "14px" }}>
                                     <strong>Email:</strong> example@example.com
                                 </p>
 
-                                <p>
+                                <p className='m-0 ' style={{ fontSize: "14px" }}>
                                     <strong>Twitter:</strong> @your-company
                                 </p>
                             </div>
 
-                            <h3 className="footer-title follow-title">
+                            <h4 className="footer-title fs-4">
                                 Follow Us
-                            </h3>
+                            </h4>
 
-                            <div className="social-icons">
+                            <div className=" d-flex gap-1">
+                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 bg-primary' >
+                                    <RiFacebookCircleFill size={30} />
+                                </div>
+                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 bg-black' ></div>
+                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 bg-black' ></div>
+                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 bg-black' ></div>
 
-                                <a href="#" className="facebook">
-                                    f
-                                </a>
-
-                                <a href="#" className="twitter">
-                                    𝕏
-                                </a>
-
-                                <a href="#" className="youtube">
-                                    ▶
-                                </a>
-                                <a href="#" className="rss">
-                                    ◔
-                                </a>
                             </div>
                         </div>
                     </div>

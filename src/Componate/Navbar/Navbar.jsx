@@ -1,5 +1,6 @@
 import { ShoppingCart, Search } from 'lucide-react';
 import "../../index.css"
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <>
@@ -10,14 +11,9 @@ export default function Navbar() {
           </a>
           <div className='d-none d-lg-block '>
             <ul className='d-flex gap-4 m-0 text-capitalize  navs align-items-center'>
-              <li><a href="#">home</a></li>
-              <li><a href="#">staff</a></li>
-              <li><a href="#">Testimonial</a></li>
-              <li><a href="#">services</a></li>
-              <li><a href="#">pages</a></li>
-              <li><a href="#">blogs</a></li>
-              <li><a href="#">shop</a></li>
-              <li><a href="#">contact</a></li>
+              <li><Link to="/">home</Link></li>
+              <li><Link to="/staff">staff</Link></li>
+              <li><Link to="/shop">shop</Link></li>
               <li><a href="#"><ShoppingCart size={15} /></a></li>
               <li><a href="#"><Search size={15} /></a></li>
             </ul>
