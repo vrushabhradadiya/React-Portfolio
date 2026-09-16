@@ -1,9 +1,9 @@
-import { RiFacebookCircleFill } from "react-icons/ri"
+import { RiFacebookCircleFill, RiTwitterXFill ,RiYoutubeFill ,RiWifiLine  } from "react-icons/ri"
 export default function Footer() {
     return (
         <>
 
-            <footer className='bg-dark py-5' >
+            <footer className=' py-5' style={{ backgroundColor: "#262626 " }} >
                 <div className="container ">
                     <div className="row g-4">
 
@@ -86,13 +86,19 @@ export default function Footer() {
                                 Follow Us
                             </h4>
 
-                            <div className=" d-flex gap-1">
-                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 bg-primary' >
-                                    <RiFacebookCircleFill size={30} />
+                            <div className=" d-flex gap-2">
+                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 d-flex align-items-center justify-content-center bg-primary' >
+                                    <RiFacebookCircleFill size={22} />
                                 </div>
-                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 bg-black' ></div>
-                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 bg-black' ></div>
-                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 bg-black' ></div>
+                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 d-flex align-items-center justify-content-center bg-black' >
+                                    <RiTwitterXFill size={22} />
+                                </div>
+                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 d-flex align-items-center justify-content-center bg-danger' >
+                                    <RiYoutubeFill size={22} />
+                                </div>
+                                <div style={{ width: "34px", height: "34px" }} className='rounded-1 d-flex align-items-center justify-content-center bg-warning' >
+                                    <RiWifiLine size={22} />
+                                </div>
 
                             </div>
                         </div>

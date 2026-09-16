@@ -14,6 +14,8 @@ export default function Navbar() {
               <li><Link to="/">home</Link></li>
               <li><Link to="/staff">staff</Link></li>
               <li><Link to="/shop">shop</Link></li>
+              <li><Link to="/contact">contact</Link></li>
+              <li><Link to="/portfolio">portfolio</Link></li>
               <li><a href="#"><ShoppingCart size={15} /></a></li>
               <li><a href="#"><Search size={15} /></a></li>
             </ul>
