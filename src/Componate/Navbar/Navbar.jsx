@@ -12,10 +12,10 @@ export default function Navbar() {
           <div className='d-none d-lg-block '>
             <ul className='d-flex gap-4 m-0 text-capitalize  navs align-items-center'>
               <li><Link to="/">home</Link></li>
+              <li><Link to="/portfolio">portfolio</Link></li>
               <li><Link to="/staff">staff</Link></li>
               <li><Link to="/shop">shop</Link></li>
               <li><Link to="/contact">contact</Link></li>
-              <li><Link to="/portfolio">portfolio</Link></li>
               <li><a href="#"><ShoppingCart size={15} /></a></li>
               <li><a href="#"><Search size={15} /></a></li>
             </ul>
